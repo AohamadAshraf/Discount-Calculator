@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>حاسبة الخصم</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <h1>💸 حاسبة الخصم</h1>
+    <p class="subtitle">احسب السعر بعد الخصم بسهولة</p>
+
+    <div class="input-box">
+      <label>السعر (جنيه)</label>
+      <input type="number" id="price" placeholder="مثال: 4200">
+    </div>
+
+    <div class="input-box">
+      <label>نسبة الخصم (%)</label>
+      <input type="number" id="discount" value="23">
+    </div>
+
+    <button onclick="calculate()">احسب الآن</button>
+
+    <div class="result" id="result">النتيجة هتظهر هنا</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
